@@ -11,14 +11,14 @@ const port = process.env.PORT || 8888;
 
 app.use(
   cors({
-    origin: "https://spotify-recommender-app.netlify.app",  // Update this with your actual Netlify URL
+    origin: "https://spotify-recommender-app.netlify.app", // Update this with your actual Netlify URL
     credentials: true,
   })
 );
 
 app.use(
   session({
-    secret: "your_secure_random_string_here",  // Replace with your generated secure key
+    secret: "1234 56789", // Replace with your generated secure key
     resave: false,
     saveUninitialized: true,
   })
