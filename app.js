@@ -18,7 +18,7 @@ app.use(
 
 app.use(
   session({
-    secret: "1234 56789", // Replace with your generated secure key
+    secret: "your_secure_random_string_here", // Replace with your generated secure key
     resave: false,
     saveUninitialized: true,
   })
