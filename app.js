@@ -18,7 +18,7 @@ app.use(
 
 app.use(
   session({
-    secret: "your_secure_random_string_here", // Replace with your generated secure key
+    secret: "f6e4b4d9d6d7dcdafed2b1b3c5c6c9c9a0e3b6e4d8e1b0f1d3e2d5e9f7b9d8a3e2e6c5d2d9d4d0d2c2c9c1c2d1c8c3d3b5b2b0f3d9c5c8b1a3b8", // Replace with your generated secure key
     resave: false,
     saveUninitialized: true,
   })

@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const API_BASE_URL = 'https://my-spotify-recommender-app.herokuapp.com'; // Update with your Heroku app URL
+const API_BASE_URL = 'https://my-spotify-recommender-app.herokuapp.com';
 
 export const getRecommendations = async () => {
   try {
